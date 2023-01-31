@@ -1,0 +1,21 @@
+.carousel-button {
+   display: flex;
+    align-items: flex-end;
+    height: 128vh;
+    padding-left: 35px; 
+}
+
+.carousel-buttons div{
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+}
+
+.banner-button-toKnowMore { 
+width: 101px !important;
+height: 26px !important;
+}
+
+.banner-button-toKnowMore:hover {
+    background-color: var(--color-gray-1d);
+}

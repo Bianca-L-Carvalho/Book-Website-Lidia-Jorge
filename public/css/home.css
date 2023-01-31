@@ -1,0 +1,153 @@
+.welcome-box {
+    width: 100%;
+    max-height: 1210px;
+}
+
+.welcome-box div img:first-child {
+    height: 396px;
+}
+
+.img-margin-top-73 {
+    margin-top: 73px !important;
+}
+
+.welcome-box h3 {
+    padding-top: 35px;
+}
+
+.welcome-box p:first-child {
+    padding-top: 20px;
+}
+
+.welcome-box a {
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+
+.latest-books-box {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.latest-books-box p:first-child {
+    padding-top: 20px;
+}
+
+.featured-book {
+    min-height: 530px;
+    margin-top: 42px;
+    width: 100%;
+    max-width: 350px;
+}
+
+.featured-book img {
+    height: 335px;
+    width: 100%;
+    max-width: 350px;
+
+}
+
+.featured-book-text-box h4 {
+    padding-top: 30px;
+}
+
+.featured-book-text-box h5 {
+    padding-top: 10px;
+}
+
+.featured-book-text-box p:first-child {
+    padding-top: 14px;
+}
+
+
+.featured-book-text-box a {
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+
+@media (min-width: 576px) {
+    .desktop-home-container {
+        margin-bottom: 106px;
+    }
+
+    .welcome-box div:first-child {
+        padding-left: 30px;
+    }
+
+    .welcome-box {
+        min-height: 538px;
+        position: relative;
+        bottom: 45px;
+        box-shadow: 1px 8px 10px rgb(210 207 207) !important;
+        background-color: white;
+    }
+
+    .desktop-flex-row {
+        flex-direction: row !important;
+    }
+
+    .desktop-welcome-text {
+        padding-top: 40px;
+        padding-left: 30px;
+    }
+
+    .featured-book {
+        min-height: 700px;
+        margin-top: 30px;
+        margin-right: 30px;
+    }
+
+
+    .featured-book-text-box {
+        padding-right: 25px !important;
+    }
+    
+    
+    .featured-book img {
+        height: 428px;
+    }
+
+    .featured-book-text-box p:first-child {
+        padding-top: 10px;
+    }
+
+    .latest-books-box p:first-child {
+        padding-top: 23px;
+    }
+
+    .desktop-marginR-55 {
+        margin-right: 55px!important;
+    }
+
+    .desktop-marginL-55 {
+        margin-left: 55px!important;
+    }
+
+}
+
+
+@media (min-width:992px) {
+    .desktop-home-container {
+        padding-right: 35px;
+        min-height: 1643px;
+        margin-bottom: 106px;
+        margin-left: 90px;
+    }
+
+    .desktop-home-container div:last-child {
+        padding-right: 0px;
+
+    }
+
+    .desktop-marginL-55 {
+        margin-left: 0!important; 
+    }
+   
+    .welcome-box {
+        margin-left: 35px;
+    }
+
+
+}

@@ -1,0 +1,45 @@
+.book-image-area {
+    width: 291px;
+    height: 410px;
+    margin-top: 60px;
+}
+
+
+.book-text-area {
+    margin-top: 40px;
+}
+
+.book-button-area {
+    padding-top: 40px;
+}
+
+@media (min-width:576px) {
+    .book-image-area {
+        width: 305px;
+        height: 471px;
+        margin-bottom: 80px;
+    }
+
+    .book-text-area {
+        margin-top: 0px;
+        margin-bottom: 65px;
+    }
+
+    .book-button-area {
+        margin-bottom: 75px;
+    }
+
+
+}
+
+@media (min-width:992px) {
+    .book-image-area {
+        margin-top: 0px;
+    }
+
+    .book-text-area {
+        margin-left: 91px;
+    }
+    
+}
+

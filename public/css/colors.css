@@ -1,0 +1,49 @@
+:root {
+    --color-gray-1d: rgb(16, 15, 15);
+    --color-gray-7d: rgb(59, 58, 58);
+    --color-gray-4d: rgb(36, 36, 36);
+    --color-gold-b4: rgb(179, 80, 50);
+    --color-gold-b1: rgb(177, 83, 59);
+    --color-gold-a9: rgb(177, 71, 59);
+    --color-orange: rgb(213, 89, 68);
+    --color-white: rgb(255, 255, 255);
+    --color-black: rgb(0, 0, 0);
+
+}
+
+
+.cor-cinza-1d {
+    background-color: var(--color-cinza-1d);
+}
+
+.cor-cinza-7d {
+    background-color: var(--color-gray-7d);
+}
+
+.cor-cinza-4d {
+    background-color: var(--color-gray-4d);
+}
+
+.cor-dourado-b4 {
+    background-color: var(--color-gold-b4);
+}
+
+.cor-dourado-b1 {
+    background-color: var(--color-gold-b1);
+}
+
+.cor-dourado-a9 {
+    background-color: var(--color-gold-a9);
+}
+
+.cor-laranja {
+    background-color: var(--color-orange);
+}
+
+.cor-branco {
+    background-color: var(--color-white);
+}
+
+.cor-preto {
+    background-color: var(--color-black);
+}

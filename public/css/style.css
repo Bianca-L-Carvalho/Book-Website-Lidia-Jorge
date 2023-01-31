@@ -1,0 +1,34 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html body {
+    min-width: 360px;
+    width: 100%;
+}
+
+p {
+    margin-bottom: 0rem !important;
+}
+
+
+.bg {
+    background-color: antiquewhite !important;
+}
+
+.closed {
+    display: none !important;
+}
+
+.white-box { 
+    box-shadow: 5px 8px 10px rgb(210 207 207);
+  
+}
+
+a {
+    text-decoration: none;
+}
+

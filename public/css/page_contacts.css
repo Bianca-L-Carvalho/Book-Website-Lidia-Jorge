@@ -1,0 +1,53 @@
+.contacts-area {
+    margin-top: 60px;
+}
+
+.contacts-area div {
+    padding-bottom: 65px;
+}
+
+.contacts-area div:last-child {
+    padding-bottom: 15px;
+}
+
+.line-width {
+width: 60px;
+height: 1px;
+}
+
+.time-area {
+    margin-top: 35px;
+}
+
+@media (min-width:576px) {
+    .dt-width-box {
+        max-width: 94% !important;
+    }
+
+    .contacts-area {
+        margin-top: 50px;
+        
+    }
+    
+    .contacts-item{
+        width: 15rem;
+    }
+
+    .contacts-area div {
+        padding-bottom: 40px;
+    }
+    
+
+    .time-area {
+        margin-top: 40px;
+        margin-bottom: 80px;
+    }
+
+}
+
+@media (min-width:1200px) {
+    .contacts-area div:last-child {
+        padding-bottom: 2px;
+    }
+
+}
