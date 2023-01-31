@@ -48,58 +48,60 @@ if ($sql->execute()) {
         <div class="">
             <div id="carouselExampleSlidesOnly" class="carousel slide p-0" data-bs-ride="carousel">
                 <div class="carousel-inner">
-                    <div class="carousel-item active" data-bs-interval="10000">
-                        <img src="public/images/cabecalho1.jpg" class="desktop-d-none w-100" alt="image 1">
-                        <img src="public/images_desktop/cabecalho1.jpg" class="w-100 d-none desktop-d-block" alt="image 1">
-                        <div class="desktop-carousel-text">
-                            <h2 class="category-font">Novidade</h2>
-                            <h3 class="header-banner-title">O Amor em Lobito Bay</h3>
-                            <p class="header-banner-text">Em todos os contos reunidos neste livro existe uma história de amor. São contos de persistência, memória de momentos, durante os quais a luz ilumina demais, e algo se esclarece para sempre, ainda que a sombra nunca se esgote.</p></p>
-                            <a href="<?php echo url_generate(['route' => 'book1']); ?>"><img class="banner-button-toKnowMore buttonOrange" src="public/images_desktop/sabermais1.svg" alt="buttonimage">
-                                <img class="banner-button-toKnowMore buttonGrey" src="public/images_desktop/sabermais2.svg" alt="buttonimage">
-                            </a>
+                    <?php if (is_authenticated()) : ?>
+                        <div class="carousel-item active" data-bs-interval="10000">
+                            <img src="public/images/cabecalho1.jpg" class="desktop-d-none w-100" alt="image 1">
+                            <img src="public/images_desktop/cabecalho1.jpg" class="w-100 d-none desktop-d-block" alt="image 1">
+                            <div class="desktop-carousel-text">
+                                <h2 class="category-font">Novidade</h2>
+                                <h3 class="header-banner-title">O Amor em Lobito Bay</h3>
+                                <p class="header-banner-text">Em todos os contos reunidos neste livro existe uma história de amor. São contos de persistência, memória de momentos, durante os quais a luz ilumina demais, e algo se esclarece para sempre, ainda que a sombra nunca se esgote.</p>
+                                </p>
+                                <a href="<?php echo url_generate(['route' => 'book1']); ?>"><img class="banner-button-toKnowMore buttonOrange" src="public/images_desktop/sabermais1.svg" alt="buttonimage">
+                                    <img class="banner-button-toKnowMore buttonGrey" src="public/images_desktop/sabermais2.svg" alt="buttonimage">
+                                </a>
+                            </div>
+                            <div></div>
                         </div>
-                        <div></div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="public/images/cabecalho2.jpg" class="desktop-d-none w-100" alt="image 1">
-                        <img src="public/images_desktop/cabecalho2.jpg" class="w-100 d-none desktop-d-block" alt="image 2">
-                        <div class="carousel-text desktop-carousel-text">
-                            <h3 class="header-banner-title">Estuário</h3>
-                            <p class="header-banner-text">Um livro sobre a vulnerabilidade de um homem, de uma família, de uma sociedade e do próprio equilíbrio da Terra, relatados pelo olhar de um jovem sonhador que se interroga sobre a fragilidade da condição humana.</p></p>
-                            <a href="<?php echo url_generate(['route' => 'book2']); ?>"> <img class="banner-button-toKnowMore buttonOrange" src="public/images_desktop/sabermais1.svg" alt="buttonimage">
-                                <img class="banner-button-toKnowMore buttonGrey" src="public/images_desktop/sabermais2.svg" alt="buttonimage"></a>
+                        <div class="carousel-item">
+                            <img src="public/images/cabecalho2.jpg" class="desktop-d-none w-100" alt="image 1">
+                            <img src="public/images_desktop/cabecalho2.jpg" class="w-100 d-none desktop-d-block" alt="image 2">
+                            <div class="carousel-text desktop-carousel-text">
+                                <h3 class="header-banner-title">Estuário</h3>
+                                <p class="header-banner-text">Um livro sobre a vulnerabilidade de um homem, de uma família, de uma sociedade e do próprio equilíbrio da Terra, relatados pelo olhar de um jovem sonhador que se interroga sobre a fragilidade da condição humana.</p>
+                                </p>
+                                <a href="<?php echo url_generate(['route' => 'book2']); ?>"> <img class="banner-button-toKnowMore buttonOrange" src="public/images_desktop/sabermais1.svg" alt="buttonimage">
+                                    <img class="banner-button-toKnowMore buttonGrey" src="public/images_desktop/sabermais2.svg" alt="buttonimage"></a>
 
+                            </div>
                         </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="public/images/cabecalho3.jpg" class="desktop-d-none w-100" alt="image 3">
-                        <img src="public/images_desktop/cabecalho3.jpg" class="w-100 d-none desktop-d-block" alt="image 3">
-                        <div class="carousel-text desktop-carousel-text">
-                            <h3 class="header-banner-title">O Livro das Tréguas</h3>
-                            <p class="header-banner-text">O primeiro livro de poemas publicado por Lídia Jorge. Escritos em datas diferentes, e em resultado de diferentes estados de espírito. Uma leitura do tempo e da vida, do início, dos percursos, dos limites e do futuro.</p>
-                            <a href="<?php echo url_generate(['route' => 'book3']); ?>"><img class="banner-button-toKnowMore buttonOrange" src="public/images_desktop/sabermais1.svg" alt="buttonimage">
-                                <img class="banner-button-toKnowMore buttonGrey" src="public/images_desktop/sabermais2.svg" alt="buttonimage"></a>
+                        <div class="carousel-item">
+                            <img src="public/images/cabecalho3.jpg" class="desktop-d-none w-100" alt="image 3">
+                            <img src="public/images_desktop/cabecalho3.jpg" class="w-100 d-none desktop-d-block" alt="image 3">
+                            <div class="carousel-text desktop-carousel-text">
+                                <h3 class="header-banner-title">O Livro das Tréguas</h3>
+                                <p class="header-banner-text">O primeiro livro de poemas publicado por Lídia Jorge. Escritos em datas diferentes, e em resultado de diferentes estados de espírito. Uma leitura do tempo e da vida, do início, dos percursos, dos limites e do futuro.</p>
+                                <a href="<?php echo url_generate(['route' => 'book3']); ?>"><img class="banner-button-toKnowMore buttonOrange" src="public/images_desktop/sabermais1.svg" alt="buttonimage">
+                                    <img class="banner-button-toKnowMore buttonGrey" src="public/images_desktop/sabermais2.svg" alt="buttonimage"></a>
 
+                            </div>
                         </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="public/images/cabecalho4.jpg" class="desktop-d-none w-100" alt="image 4">
-                        <img src="public/images_desktop/cabecalho4.jpg" class="w-100 d-none desktop-d-block" alt="image 4">
-                        <div carousel-text>
-                            <h3 class="header-banner-title">Misericórdia</h3>
-                            <p class="header-banner-text">A história que a mãe de Lídia Jorge lhe pediu que escrevesse. O diário do ultimo ano de vida de uma mulher incorpora no seu relato o fulgor das existências cruzadas num ambiente concentracionário, e transforma-se no testemunho admirável da condição humana.</p>
-                            <a href="<?php echo url_generate(['route' => 'book4']); ?>"><img class="banner-button-toKnowMore buttonOrange" src="public/images_desktop/sabermais1.svg" alt="buttonimage">
-                                <img class="banner-button-toKnowMore buttonGrey" src="public/images_desktop/sabermais2.svg" alt="buttonimage"></a>
-
+                        <div class="carousel-item">
+                            <img src="public/images/cabecalho4.jpg" class="desktop-d-none w-100" alt="image 4">
+                            <img src="public/images_desktop/cabecalho4.jpg" class="w-100 d-none desktop-d-block" alt="image 4">
+                            <div carousel-text>
+                                <h3 class="header-banner-title">Misericórdia</h3>
+                                <p class="header-banner-text">A história que a mãe de Lídia Jorge lhe pediu que escrevesse. O diário do ultimo ano de vida de uma mulher incorpora no seu relato o fulgor das existências cruzadas num ambiente concentracionário, e transforma-se no testemunho admirável da condição humana.</p>
+                                <a href="<?php echo url_generate(['route' => 'book4']); ?>"><img class="banner-button-toKnowMore buttonOrange" src="public/images_desktop/sabermais1.svg" alt="buttonimage">
+                                    <img class="banner-button-toKnowMore buttonGrey" src="public/images_desktop/sabermais2.svg" alt="buttonimage"></a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="carousel-buttons">
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                    </div>
+                    <?php else : ?>
+                        <div class="carousel-item active" data-bs-interval="10000">
+                            <img src="public/images/cabecalho5.jpg" class="desktop-d-none w-100" alt="image 1">
+                            <img src="public/images_desktop/cabecalho5.jpg" class="w-100 d-none desktop-d-block" alt="image 1">
+                        </div>
+                    <?php endif; ?>
                     <div>
                     </div>
                 </div>
@@ -109,7 +111,7 @@ if ($sql->execute()) {
                     <div class="col-10 col-md-12 desktop-d-flex desktop-justify-center ">
                         <h1 class="leter-type-t1"><?php echo PAGE_TITLE; ?></h1>
                     </div>
-
+                    <?php if (is_authenticated()) : ?>
                     <div class="col-2 menu-open-image d-md-none  imageOpen">
                         <img src="public/images_desktop/menu.svg" alt="menu">
                     </div>
@@ -118,10 +120,9 @@ if ($sql->execute()) {
                     </div>
                 </div>
                 <div class="horizontal-line"></div>
-                <nav class="bg-color-white d-md-none">
-                    <div class="menu-style col-12 menuList">
-                        <ul class="padding-35">
-                            <?php if (is_authenticated()) : ?>
+                    <nav class="bg-color-white d-md-none">
+                        <div class="menu-style col-12 menuList">
+                            <ul class="padding-35">
                                 <li>
                                     <a class="menu" class="font-1" href="<?php echo url_generate(['route' => 'home']); ?>">HOME</a>
                                 </li>
@@ -156,14 +157,10 @@ if ($sql->execute()) {
                                 <li>
                                     <a class="menu logout" href="<?php echo url_generate(['route' => 'logout']); ?>">Logout</a>
                                 </li>
-                            <?php else : ?>
-                                <li>
-                                    <a class="menu" href="<?php echo url_generate(['route' => 'login']); ?>">Fazer Login</a>
-                                </li>
-                            <?php endif; ?>
-                        </ul>
-                    </div>
-                </nav>
+                            </ul>
+                        </div>
+                    </nav>
+                <?php endif; ?>
                 <!-- Desktop -->
                 <nav class="d-none d-md-block" id="open-menu">
                     <div class="menu-style col-12" id="menuList">
@@ -204,11 +201,7 @@ if ($sql->execute()) {
                                 <li>
                                     <a class="menu" href="<?php echo url_generate(['route' => 'logout']); ?>">Logout</a>
                                 </li>
-                            <?php else : ?>
-                                <li>
-                                    <a class="menu" href="<?php echo url_generate(['route' => 'login']); ?>">Fazer Login</a>
-                                </li>
-                            <?php endif; ?>
+                            <?php endif ?>
                         </ul>
                     </div>
                 </nav>
@@ -223,4 +216,4 @@ if ($sql->execute()) {
                 </div>
             <?php } ?>
     </header>
-    <main>
+    <main <?php if (!is_authenticated()) { ?> class="login-page" <?php } ?>>
