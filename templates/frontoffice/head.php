@@ -1,12 +1,12 @@
 <?php
 
 $query = 'SELECT * FROM posts where page="books"';
-$sql = $pdo->prepare($query); 
+$sql = $pdo->prepare($query);
 
 
-if ($sql->execute()) { 
+if ($sql->execute()) {
 
-    $submenu = $sql->fetchAll(PDO::FETCH_ASSOC); 
+    $submenu = $sql->fetchAll(PDO::FETCH_ASSOC);
 } else {
     $submenu = [];
 }
@@ -38,7 +38,7 @@ if ($sql->execute()) {
     <link rel="stylesheet" href="public/css/page_news.css">
     <link rel="stylesheet" href="public/css/backoffice.css">
 
-<!-- -->
+    <!-- -->
     <link rel="stylesheet" href="public/css/style.css">
 
 </head>
@@ -53,12 +53,9 @@ if ($sql->execute()) {
                         <img src="public/images_desktop/cabecalho1.jpg" class="w-100 d-none desktop-d-block" alt="image 1">
                         <div class="desktop-carousel-text">
                             <h2 class="category-font">Novidade</h2>
-                            <h3 class="header-banner-title">Senhora do Amor e da Guerra</h3>
-                            <p class="header-banner-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
-                                error iure tenetur sunt id,
-                                voluptas atque eius ipsa fugiat quaerat doloremque recusandae, nisi molestiae aspernatur
-                                quia autem quos? Excepturi, impedit!</p>
-
+                            <h3 class="header-banner-title">O Amor em Lobito Bay</h3>
+                            <p class="header-banner-text">Em todos os contos reunidos neste livro existe uma história de amor. São contos de persistência, memória de momentos, durante os quais a luz ilumina demais, e algo se esclarece para sempre, ainda que a sombra nunca se esgote.</p>
+                            </p>
                             <a href="<?php echo url_generate(['route' => 'book1']); ?>"><img class="banner-button-toKnowMore buttonOrange" src="public/images_desktop/sabermais1.svg" alt="buttonimage">
                                 <img class="banner-button-toKnowMore buttonGrey" src="public/images_desktop/sabermais2.svg" alt="buttonimage">
                             </a>
@@ -69,11 +66,9 @@ if ($sql->execute()) {
                         <img src="public/images/cabecalho2.jpg" class="desktop-d-none w-100" alt="image 1">
                         <img src="public/images_desktop/cabecalho2.jpg" class="w-100 d-none desktop-d-block" alt="image 2">
                         <div class="carousel-text desktop-carousel-text">
-                            <h3 class="header-banner-title">O Caracol Estrábico</h3>
-                            <p class="header-banner-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
-                                error iure tenetur sunt id,
-                                voluptas atque eius ipsa fugiat quaerat doloremque recusandae, nisi molestiae aspernatur
-                                quia autem quos? Excepturi, impedit!</p>
+                            <h3 class="header-banner-title">Estuário</h3>
+                            <p class="header-banner-text">Um livro sobre a vulnerabilidade de um homem, de uma família, de uma sociedade e do próprio equilíbrio da Terra, relatados pelo olhar de um jovem sonhador que se interroga sobre a fragilidade da condição humana.</p>
+                            </p>
                             <a href="<?php echo url_generate(['route' => 'book2']); ?>"> <img class="banner-button-toKnowMore buttonOrange" src="public/images_desktop/sabermais1.svg" alt="buttonimage">
                                 <img class="banner-button-toKnowMore buttonGrey" src="public/images_desktop/sabermais2.svg" alt="buttonimage"></a>
 
@@ -83,11 +78,8 @@ if ($sql->execute()) {
                         <img src="public/images/cabecalho3.jpg" class="desktop-d-none w-100" alt="image 3">
                         <img src="public/images_desktop/cabecalho3.jpg" class="w-100 d-none desktop-d-block" alt="image 3">
                         <div class="carousel-text desktop-carousel-text">
-                            <h3 class="header-banner-title">O colecionador de Amnésias</h3>
-                            <p class="header-banner-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
-                                error iure tenetur sunt id,
-                                voluptas atque eius ipsa fugiat quaerat doloremque recusandae, nisi molestiae aspernatur
-                                quia autem quos? Excepturi, impedit!</p>
+                            <h3 class="header-banner-title">O Livro das Tréguas</h3>
+                            <p class="header-banner-text">O primeiro livro de poemas publicado por Lídia Jorge. Escritos em datas diferentes, e em resultado de diferentes estados de espírito. Uma leitura do tempo e da vida, do início, dos percursos, dos limites e do futuro.</p>
                             <a href="<?php echo url_generate(['route' => 'book3']); ?>"><img class="banner-button-toKnowMore buttonOrange" src="public/images_desktop/sabermais1.svg" alt="buttonimage">
                                 <img class="banner-button-toKnowMore buttonGrey" src="public/images_desktop/sabermais2.svg" alt="buttonimage"></a>
 
@@ -97,11 +89,8 @@ if ($sql->execute()) {
                         <img src="public/images/cabecalho4.jpg" class="desktop-d-none w-100" alt="image 4">
                         <img src="public/images_desktop/cabecalho4.jpg" class="w-100 d-none desktop-d-block" alt="image 4">
                         <div carousel-text>
-                            <h3 class="header-banner-title">O Velho que Pensava que Fugia</h3>
-                            <p class="header-banner-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
-                                error iure tenetur sunt id,
-                                voluptas atque eius ipsa fugiat quaerat doloremque recusandae, nisi molestiae aspernatur
-                                quia autem quos? Excepturi, impedit!</p>
+                            <h3 class="header-banner-title">Misericórdia</h3>
+                            <p class="header-banner-text">A história que a mãe de Lídia Jorge lhe pediu que escrevesse. O diário do ultimo ano de vida de uma mulher incorpora no seu relato o fulgor das existências cruzadas num ambiente concentracionário, e transforma-se no testemunho admirável da condição humana.</p>
                             <a href="<?php echo url_generate(['route' => 'book4']); ?>"><img class="banner-button-toKnowMore buttonOrange" src="public/images_desktop/sabermais1.svg" alt="buttonimage">
                                 <img class="banner-button-toKnowMore buttonGrey" src="public/images_desktop/sabermais2.svg" alt="buttonimage"></a>
 

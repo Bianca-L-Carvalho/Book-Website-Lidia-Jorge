@@ -54,7 +54,7 @@ if ($sql->execute()) {
                         <div class="desktop-carousel-text">
                             <h2 class="category-font">Novidade</h2>
                             <h3 class="header-banner-title">O Amor em Lobito Bay</h3>
-                            <p class="header-banner-text">Em todos os contos reunidos neste livro existe uma historia de amor, que entrecruza a experiencia da confianca na vida com o desconcerto do mundo. São contos de persistencia, memoria de momentos, breves momentos de relampago, durante os quais a luz ilumina demais, e algo se esclarece para sempre, ainda que a sombra nunca se esgote.</p></p>
+                            <p class="header-banner-text">Em todos os contos reunidos neste livro existe uma história de amor. São contos de persistência, memória de momentos, durante os quais a luz ilumina demais, e algo se esclarece para sempre, ainda que a sombra nunca se esgote.</p></p>
                             <a href="<?php echo url_generate(['route' => 'book1']); ?>"><img class="banner-button-toKnowMore buttonOrange" src="public/images_desktop/sabermais1.svg" alt="buttonimage">
                                 <img class="banner-button-toKnowMore buttonGrey" src="public/images_desktop/sabermais2.svg" alt="buttonimage">
                             </a>
@@ -66,7 +66,7 @@ if ($sql->execute()) {
                         <img src="public/images_desktop/cabecalho2.jpg" class="w-100 d-none desktop-d-block" alt="image 2">
                         <div class="carousel-text desktop-carousel-text">
                             <h3 class="header-banner-title">Estuário</h3>
-                            <p class="header-banner-text">Estuário um livro sobre a vulnerabilidade de um homem, de uma família, de uma sociedade e do próprio equilíbrio da Terra, relatados pelo olhar de um jovem sonhador que se interroga sobre a fragilidade da condição humana.</p></p>
+                            <p class="header-banner-text">Um livro sobre a vulnerabilidade de um homem, de uma família, de uma sociedade e do próprio equilíbrio da Terra, relatados pelo olhar de um jovem sonhador que se interroga sobre a fragilidade da condição humana.</p></p>
                             <a href="<?php echo url_generate(['route' => 'book2']); ?>"> <img class="banner-button-toKnowMore buttonOrange" src="public/images_desktop/sabermais1.svg" alt="buttonimage">
                                 <img class="banner-button-toKnowMore buttonGrey" src="public/images_desktop/sabermais2.svg" alt="buttonimage"></a>
 
@@ -77,7 +77,7 @@ if ($sql->execute()) {
                         <img src="public/images_desktop/cabecalho3.jpg" class="w-100 d-none desktop-d-block" alt="image 3">
                         <div class="carousel-text desktop-carousel-text">
                             <h3 class="header-banner-title">O Livro das Tréguas</h3>
-                            <p class="header-banner-text">Lídia Jorge tem vindo a escrever poesia desde muito tempo, porém não tinha publicado qualquer livro até o presente. Desse vasto conjunto, a escritora seleccionou 50 poemas aqui reunidos. Uma leitura do tempo e da vida, do início, dos percursos, dos limites e do futuro.</p>
+                            <p class="header-banner-text">O primeiro livro de poemas publicado por Lídia Jorge. Escritos em datas diferentes, e em resultado de diferentes estados de espírito. Uma leitura do tempo e da vida, do início, dos percursos, dos limites e do futuro.</p>
                             <a href="<?php echo url_generate(['route' => 'book3']); ?>"><img class="banner-button-toKnowMore buttonOrange" src="public/images_desktop/sabermais1.svg" alt="buttonimage">
                                 <img class="banner-button-toKnowMore buttonGrey" src="public/images_desktop/sabermais2.svg" alt="buttonimage"></a>
 
