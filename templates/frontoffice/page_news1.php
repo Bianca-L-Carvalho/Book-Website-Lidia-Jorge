@@ -19,7 +19,7 @@ if ($sql->execute()) {
   </div>
 </div>
 <?php for ($i = 0; $i < count($posts); $i++) {
-            if ($i == 0) { ?>
+            if ($i == 2) { ?>
     <div class=" white-box">
       <div class="padding-35 desktop-margin-90 desktop-padding-90 news-area d-flex flex-column">
         <h2 class="leter-type-t1"><?php echo $posts[$i]["title"] ?></h2>
@@ -31,7 +31,7 @@ if ($sql->execute()) {
       </div>
       </div>
     </div>
-  <?php } else if ($i == 1) { ?>
+  <?php } else if ($i == 3) { ?>
     <div class="padding-35 desktop-margin-90 desktop-padding-90 news-area desktop-sec-news-area d-flex flex-column">
       <h2 class="leter-type-t1"> <?php echo $posts[$i]["title"] ?></h2>
       <div class="horizontal-line-news"></div>

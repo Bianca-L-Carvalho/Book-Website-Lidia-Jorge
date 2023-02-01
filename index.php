@@ -10,7 +10,7 @@ require_once 'functions/auth.php';
 $dsn = 'mysql:dbname=' . DB_NAME . ';host=' . DB_HOST . ';port=' . DB_PORT;
 $pdo = new PDO($dsn, DB_USER, DB_PASS);
 
-if (!empty($_GET['area']) && $_GET['area'] == 'backoffice') {
+if (!empty($_GET['area']) && $_GET['area'] == 'admin') {
     $layout_folder = 'backoffice';
 } else {
     $layout_folder = 'frontoffice';
@@ -22,7 +22,7 @@ if (empty($_GET['route'])) {
     $page = $_GET['route'];
 }
 
-if (!empty($_GET['area']) && $_GET['area'] == 'backoffice' && !is_authenticated() && $page != 'login' && $page != 'authenticate' ) {
+if (!empty($_GET['area']) && $_GET['area'] == 'admin' && !is_authenticated() && $page != 'login' && $page != 'authenticate' ) {
     set_flash_message('Area Restrita: Faça login para mais acessos.');
     url_redirect(['route' => 'login']);
 }
