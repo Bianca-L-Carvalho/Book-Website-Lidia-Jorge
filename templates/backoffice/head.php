@@ -143,6 +143,12 @@ if ($sql->execute()) {
                                         <li>
                                             <a class="submenu submenu-padding" href="<?php echo url_generate(['route' => 'book4']); ?>"><?php echo $submenu[3]["title"]; ?></a>
                                         </li>
+                                        <li>
+                                            <a class="submenu submenu-padding" href="<?php echo url_generate(['route' => 'book5']); ?>"><?php echo $submenu[4]["title"]; ?></a>
+                                        </li>
+                                        <li>
+                                            <a class="submenu submenu-padding" href="<?php echo url_generate(['route' => 'book6']); ?>"><?php echo $submenu[5]["title"]; ?></a>
+                                        </li>
                                     </ul>
                                 </li>
                                 <li>
@@ -186,6 +192,12 @@ if ($sql->execute()) {
                                         </li>
                                         <li>
                                             <a class="submenu submenu-padding" href="<?php echo url_generate(['route' => 'book4']); ?>"><?php echo $submenu[3]["title"]; ?></a>
+                                        </li>
+                                        <li>
+                                            <a class="submenu submenu-padding" href="<?php echo url_generate(['route' => 'book5']); ?>"><?php echo $submenu[4]["title"]; ?></a>
+                                        </li>
+                                        <li>
+                                            <a class="submenu submenu-padding" href="<?php echo url_generate(['route' => 'book6']); ?>"><?php echo $submenu[5]["title"]; ?></a>
                                         </li>
                                     </ul>
                                 </li>

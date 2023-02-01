@@ -145,6 +145,12 @@ if ($sql->execute()) {
                                     <li>
                                         <a class="submenu submenu-padding" href="<?php echo url_generate(['route' => 'book4']); ?>"><?php echo $submenu[3]["title"]; ?></a>
                                     </li>
+                                    <li>
+                                        <a class="submenu submenu-padding" href="<?php echo url_generate(['route' => 'book5']); ?>"><?php echo $submenu[4]["title"]; ?></a>
+                                    </li>
+                                    <li>
+                                        <a class="submenu submenu-padding" href="<?php echo url_generate(['route' => 'book6']); ?>"><?php echo $submenu[5]["title"]; ?></a>
+                                    </li>
                                 </ul>
                             </li>
                             <li>
@@ -177,22 +183,24 @@ if ($sql->execute()) {
                         </ul>
                         <div class="submenu-container">
                             <ul class="submenu desktop-submenu-color submenu-padding menu-border submenuItems">
-                                <li>
-                                    <a class="submenu submenu-padding" href="<?php echo url_generate(['route' => 'book1']); ?>">SENHOR DO AMOR E DA
-                                        GUERRA</a>
-                                </li>
-                                <li>
-                                    <a class="submenu submenu-padding" href="<?php echo url_generate(['route' => 'book2']); ?>">O CARACOL
-                                        ESTRÁBICO</a>
-                                </li>
-                                <li>
-                                    <a class="submenu submenu-padding" href="<?php echo url_generate(['route' => 'book3']); ?>">O COLECIONADOR DE
-                                        AMNÉSIAS</a>
-                                </li>
-                                <li>
-                                    <a class="submenu submenu-padding" href="<?php echo url_generate(['route' => 'book4']); ?>">O VELHO QUE PENSAVA QUE
-                                        FUGIA</a>
-                                </li>
+                            <li>
+                                        <a class="submenu submenu-padding" href="<?php echo url_generate(['route' => 'book1']); ?>"><?php echo $submenu[0]["title"]; ?></a>
+                                    </li>
+                                    <li>
+                                        <a class="submenu submenu-padding" href="<?php echo url_generate(['route' => 'book2']); ?>"><?php echo $submenu[1]["title"]; ?></a>
+                                    </li>
+                                    <li>
+                                        <a class="submenu submenu-padding" href="<?php echo url_generate(['route' => 'book3']); ?>"><?php echo $submenu[2]["title"]; ?></a>
+                                    </li>
+                                    <li>
+                                        <a class="submenu submenu-padding" href="<?php echo url_generate(['route' => 'book4']); ?>"><?php echo $submenu[3]["title"]; ?></a>
+                                    </li>
+                                    <li>
+                                        <a class="submenu submenu-padding" href="<?php echo url_generate(['route' => 'book5']); ?>"><?php echo $submenu[4]["title"]; ?></a>
+                                    </li>
+                                    <li>
+                                        <a class="submenu submenu-padding" href="<?php echo url_generate(['route' => 'book6']); ?>"><?php echo $submenu[5]["title"]; ?></a>
+                                    </li>
                             </ul>
                         </div>
                     </div>
