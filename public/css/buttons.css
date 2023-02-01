@@ -2,18 +2,18 @@
    display: flex;
     align-items: flex-end;
     height: 128vh;
-    padding-left: 35px; 
+    padding-left: 2.18rem; 
 }
 
 .carousel-buttons div{
-    width: 20px;
-    height: 20px;
-    border-radius: 50px;
+    width: 1.25rem;
+    height:  1.25rem;
+    border-radius: 3.12rem;
 }
 
 .banner-button-toKnowMore { 
-width: 101px !important;
-height: 26px !important;
+width: 6.31rem !important;
+height: 1.62rem !important;
 }
 
 .banner-button-toKnowMore:hover {

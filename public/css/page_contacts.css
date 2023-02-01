@@ -1,22 +1,22 @@
 .contacts-area {
-    margin-top: 60px;
+    margin-top: 3.75rem;
 }
 
 .contacts-area div {
-    padding-bottom: 65px;
+    padding-bottom: 4.07rem;
 }
 
 .contacts-area div:last-child {
-    padding-bottom: 15px;
+    padding-bottom: 0.94rem;
 }
 
 .line-width {
-width: 60px;
-height: 1px;
+width: 3.75rem;
+height: 0.06rem;
 }
 
 .time-area {
-    margin-top: 35px;
+    margin-top: 2.19rem;
 }
 
 @media (min-width:576px) {
@@ -25,7 +25,7 @@ height: 1px;
     }
 
     .contacts-area {
-        margin-top: 50px;
+        margin-top: 3.12rem;
         
     }
     
@@ -34,20 +34,20 @@ height: 1px;
     }
 
     .contacts-area div {
-        padding-bottom: 40px;
+        padding-bottom: 2.5rem;
     }
     
 
     .time-area {
-        margin-top: 40px;
-        margin-bottom: 80px;
+        margin-top: 2.5rem;
+        margin-bottom: 5rem;
     }
 
 }
 
 @media (min-width:1200px) {
     .contacts-area div:last-child {
-        padding-bottom: 2px;
+        padding-bottom: 0.12rem;
     }
 
 }

@@ -1,27 +1,27 @@
 .news-area {
-    padding-top: 60px;
-    padding-bottom: 55px;
+    padding-top: 3.75rem;
+    padding-bottom: 3.44rem;
 }
 
 .news-area h5 {
-    padding-bottom: 30px;
+    padding-bottom: 1.88rem;
 
 }
 
 .horizontal-line-news {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border-bottom: solid 1px var(--color-gold-a9);
+    margin-top: 0.63rem;
+    margin-bottom: 0.63rem;
+    border-bottom: solid 0.06rem var(--color-gold-a9);
 }
 
 .news-area p:first-child {
-    padding-top: 30px;
+    padding-top: 1.88rem;
 }
 
 .seta {
-    width: 10px;
-    height: 35px;
-    padding-bottom: 10px;
+    width: 0.63rem;
+    height: 2.19rem;
+    padding-bottom: 0.63rem;
 }
 
 .page-item {
@@ -33,24 +33,25 @@
 @media (min-width:576px) {
 
     .news-area {
-        padding-top: 30px;
-        padding-bottom: 60px;
+        padding-top: 1.88rem;
+        padding-bottom: 3.75rem;
     }
 
     .desktop-sec-news-area {
-        padding-top: 80px;
+        padding-top: 5rem;
     }
 
 
     .horizontal-line-news {
-        margin-top: 12px;
-        margin-bottom: 12px;
+        margin-top: 0.75rem;
+        margin-bottom: 0.75rem;
 
     }
 
 
     .pagination {
-        padding-bottom: 70px !important;
+        padding-bottom: 4.38rem !important;
+        padding-top: 1.88rem;
     }
 
 }

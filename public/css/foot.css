@@ -1,10 +1,10 @@
 .line-margin-60 {
-    margin-top: 60px;
-    margin-bottom: 60px;
+    margin-top: 3.75rem;
+    margin-bottom: 3.75rem;
 }
 
 .contacts-footer {
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .contacts-footer p,
@@ -20,53 +20,53 @@
 }
 
 .contacts-footer h3 {
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
 .contacts-footer p {
-    margin-top: 6px;
+    margin-top: 0.37rem;
 }
 
 .icons-footer h3 {
-    margin-top: 40px;
+    margin-top: 2.5rem;
 }
 
 .social-media-icons img {
-    margin-top: 30px;
-    margin-right: 25px;
+    margin-top: 1.87rem;
+    margin-right: 1.56rem;
 }
 
 .icons-consumers {
-    margin-top: 64px;
+    margin-top: 4rem;
 }
 
 .icons-consumers img:first-child {
-    padding-right: 44px;
+    padding-right: 2.75rem;
 }
 
 .pl-cookies-text {
-    margin-top: 43px;
-    margin-bottom: 60px;
+    margin-top:2.68rem;
+    margin-bottom:3.75rem;
 }
 
 @media (min-width:576px) {
 
     .line-margin-60 {
-        margin-top: -19px;
+        margin-top: -1.18rem;
         margin-bottom: 0px;
     }
 
     .desktop-padding-top {
-        padding-top: 15px;
+        padding-top:0.93rem;
     }
 
     .contacts-footer {
-        margin-top: 70px;
+        margin-top: 4.37rem;
     }
 
     .desktop-contacts {
-        padding-right: 25px;
-        max-width: 237px;
+        padding-right: 1.56rem;
+        max-width:14.81rem;
 
     }
 
@@ -76,28 +76,28 @@
     }
 
     .icons-footer {
-        margin-top: 30px;
+        margin-top: 1.87rem;
     } 
     .icons-consumers {
-        margin-top: -58px;
+        margin-top: -3.62rem;
     }
     .pl-cookies-text {
-        margin-bottom: 70px;
+        margin-bottom: 4.37rem;
     }
 }
 
 @media (min-width:1200px) {
     .desktop-foot-margin{
-        margin-right: 110px;
-        margin-left: 110px;   
+        margin-right: 6.87rem;
+        margin-left: 6.87rem;   
     } 
 
     .icons-consumers {
-        margin-left: 78px;
+        margin-left: 4.87rem;
     }
 
     .pl-cookies-text {
-        margin-left: 102px;
+        margin-left: 6.37rem;
     }
 }
 

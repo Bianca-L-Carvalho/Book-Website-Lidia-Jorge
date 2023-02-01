@@ -1,32 +1,32 @@
 .book-image-area {
-    width: 291px;
-    height: 410px;
-    margin-top: 60px;
+    width: 18.19rem;
+    height: 25.63rem;
+    margin-top: 3.75rem;
 }
 
 
 .book-text-area {
-    margin-top: 40px;
+    margin-top: 2.5rem;
 }
 
 .book-button-area {
-    padding-top: 40px;
+    padding-top: 2.5rem;
 }
 
 @media (min-width:576px) {
     .book-image-area {
-        width: 305px;
-        height: 471px;
-        margin-bottom: 80px;
+        width: 19rem;
+        height: 29.4rem;
+        margin-bottom: 8rem;
     }
 
     .book-text-area {
         margin-top: 0px;
-        margin-bottom: 65px;
+        margin-bottom: 4.06rem;
     }
 
     .book-button-area {
-        margin-bottom: 75px;
+        margin-bottom: 4.69rem;
     }
 
 
@@ -38,7 +38,7 @@
     }
 
     .book-text-area {
-        margin-left: 91px;
+        margin-left: 5.69rem;
     }
     
 }

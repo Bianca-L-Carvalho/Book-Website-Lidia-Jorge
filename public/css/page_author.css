@@ -1,62 +1,62 @@
 .author-white-box {
-min-height: 130px;
+min-height: 8.13rem;
 }
 
 .over-flow {
-    max-height: 550px;
+    max-height: 34.38rem;
     overflow: hidden;
 }
 
 .author-white-box h2{
-    padding-top: 50px;
-    padding-bottom: 10px;
+    padding-top: 3.13rem;
+    padding-bottom: 0.63rem;
 }
 
 .author-white-box h3 {
- padding-bottom: 14px;
+ padding-bottom: 0.88rem;
 }
 
 .author-image-area {
-    margin-top: 60px;
-    margin-bottom: 55px;
+    margin-top: 3.75rem;
+    margin-bottom: 3.44rem;
     max-width: 100%;
 }
 
 
 .author-text-area p {
-    padding-bottom: 5px;
+    padding-bottom: 0.32rem;
 }
 
 .author-buttons-area {
-    padding-top: 20px;
+    padding-top: 1.25rem;
 }
 
 .padding-top-20 {
-    padding-top: 20px;
+    padding-top: 1.25rem;
 }
 
 .see-more-button {
-   width: 90px;
-   height: 26px; 
+   width: 5.63rem;
+   height: 1.63rem; 
 }
 
 .go-back-button {
-    width: 132px;
-    height: 30px;
+    width: 8.25rem;
+    height: 1.88rem;
 }
 
 @media (min-width:576px){
 
     .author-image-area {
-        margin-top: 55px;
+        margin-top: 3.44rem;
     }
 
     .desktop-button{
-        padding-bottom: 75px;
+        padding-bottom: 4.69rem;
     }
 
     .over-flow {
-        max-height: 1138px !important;
+        max-height: 71.13rem !important;
     }
 
 }
@@ -65,10 +65,10 @@ min-height: 130px;
 @media (min-width:992px) {
     .author-white-box {
         max-width: 94%;
-        left: 90px;
+        left: 5.62rem;
         position: relative;
         background-color: white;
-        top: -45px;
+        top: -2.81rem;
         box-shadow: 1px 8px 10px rgb(210 207 207) !important;
     }
 

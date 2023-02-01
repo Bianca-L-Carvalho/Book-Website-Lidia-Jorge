@@ -7,14 +7,14 @@
 }
 
 .padding-35 {
-    padding-left: 35px;
-    padding-right: 35px;
+    padding-left: 2.18rem;
+    padding-right: 2.18rem;
 
 }
 
 .padding-25 {
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 1.56rem;
+    padding-right: 1.56rem;
 
 }
 
@@ -85,12 +85,12 @@
 
 @media (min-width: 992px) {
     .desktop-padding-90 {
-        padding-left: 90px;
-        padding-right: 90px
+        padding-left: 5.62rem;
+        padding-right: 5.62rem;
     }
 
     .desktop-margin-90 {
-        margin-left: 90px;
-        margin-right: 90px
+        margin-left: 5.62rem;
+        margin-right: 5.62rem;
     }
 }
