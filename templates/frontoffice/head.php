@@ -111,7 +111,7 @@ if ($sql->execute()) {
             <div class=" header-position white-box-header">
                 <div class="d-flex margin-top-70 padding-35">
                     <div class="col-10 desktop-col-12 desktop-d-flex desktop-justify-center ">
-                        <h1 class="leter-type-t1">SEBASTIÃO ALVES</h1>
+                        <h1 class="leter-type-t1"><?php echo PAGE_TITLE; ?></h1>
                     </div>
 
                     <div class="col-2 menu-open-image desktop-d-none imageOpen">
