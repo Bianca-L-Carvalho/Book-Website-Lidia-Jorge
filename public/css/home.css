@@ -133,7 +133,7 @@
         padding-right: 2.19rem;
         min-height: 102.69rem;
         margin-bottom: 6.62rem;
-        margin-left: 5.62;
+        margin-left: 5.62rem;
     }
 
     .desktop-home-container div:last-child {
@@ -142,12 +142,13 @@
     }
 
     .desktop-marginL-55 {
-        margin-left: 0!important; 
+        margin-left: 0px!important; 
     }
    
     .welcome-box {
-        margin-left: 22.19rem;
+        margin-left: 2.19rem;
     }
 
 
 }
+
