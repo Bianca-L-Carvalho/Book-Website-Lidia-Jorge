@@ -27,8 +27,6 @@ if ($sql->execute()) {
                     <li>
                         <a class="menu" href="<?php echo url_generate(['route' => 'author']); ?>">AUTOR</a>
                     </li>
-                    <li><a class="menu open" href="">LIVROS</a>
-                    </li>
                     <li>
                         <a class="menu" href="<?php echo url_generate(['route' => 'news']); ?>">IMPRENSA</a>
                     </li>
