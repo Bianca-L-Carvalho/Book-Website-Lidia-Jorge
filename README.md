@@ -1,4 +1,4 @@
-# site_lidiaJorge
+# site Escritora Lídia Jorge
 
 # O que se trata o projeto?
 
