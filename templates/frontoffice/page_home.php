@@ -34,8 +34,8 @@ if ($sql->execute()) {
         } ?>
     </div>
     <div>
-        <div class="padding-35 desktop-marginR-55 desktop-marginL-55">
-            <div class="latest-books-box ">
+        <div class="home-books padding-35 desktop-marginR-55 desktop-marginL-55">
+            <div class="latest-books-box home-books-1">
                 <?php foreach ($posts as $post) {
                     if ($post["section"] == "lastbooks" && $post["id"] == 2) { ?>
                         <h3 class="d-flex justify-content-start leter-type-t1"><?php echo $post["title"] ?></h3>

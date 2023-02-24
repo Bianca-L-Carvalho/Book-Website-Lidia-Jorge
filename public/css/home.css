@@ -66,6 +66,17 @@
     padding-bottom: 1.25rem;
 }
 
+.home-books{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.home-books-1{
+    display: flex;
+    width: 100%;
+}
+
 
 @media (min-width: 576px) {
     .desktop-home-container {
