@@ -69,7 +69,7 @@ if ($sql->execute()) {
                                 <?php } else if ($posts[$i]["id"] == 4) { ?>
                                 <?php echo url_generate(['route' => 'book4']); ?>
                                 <?php } else { ?> 
-                                <?php echo url_generate(['route' => 'book3']); ?> <?php } ?> " class="d-flex justify-content-end"><img class="banner-button-toKnowMore buttonOrange" src="public/images_desktop/sabermais1.svg" alt="buttonimage">
+                                <?php echo url_generate(['route' => 'book2']); ?> <?php } ?> " class="d-flex justify-content-end"><img class="banner-button-toKnowMore buttonOrange" src="public/images_desktop/sabermais1.svg" alt="buttonimage">
                                     <img class="banner-button-toKnowMore buttonGrey" src="public/images_desktop/sabermais2.svg" alt="buttonimage"></a>
                             </div>
                         </div>
