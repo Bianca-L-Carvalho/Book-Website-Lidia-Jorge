@@ -28,7 +28,7 @@ if ($sql->execute()) {
                         <div class="post-update">
                             <a class="category-font" href="<?php echo url_generate(['route' => 'post_update', 'id' => $post['id']]); ?>">Editar</a> | <a class="category-font" onclick="return confirm('Tem certeza?');" href="<?php echo url_generate(['route' => 'post_delete', 'id' => $post['id']]); ?>">Apagar</a>
                         </div>
-                        <a href="<?php echo url_generate(['route' => 'news']); ?>" class="d-flex justify-content-center justify-content-md-center justify-content-lg-end"><img class="banner-button-toKnowMore buttonOrange" src="public/images_desktop/sabermais1.svg" alt="buttonimage">
+                        <a href="<?php echo url_generate(['route' => 'author']); ?>" class="d-flex justify-content-center justify-content-md-center justify-content-lg-end"><img class="banner-button-toKnowMore buttonOrange" src="public/images_desktop/sabermais1.svg" alt="buttonimage">
                             <img class="banner-button-toKnowMore buttonGrey" src="public/images_desktop/sabermais2.svg" alt="button to Know More"></a>
                     </div>
                 </div>

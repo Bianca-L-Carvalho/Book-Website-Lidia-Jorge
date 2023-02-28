@@ -25,7 +25,7 @@ if ($sql->execute()) {
                         <div class="d-flex flex-column justify-content-start justify-content-sm-center leter-type-p">
                             <?php echo $post["content"] ?>
                         </div>
-                        <a href="<?php echo url_generate(['route' => 'news']); ?>" class="d-flex justify-content-center justify-content-md-center justify-content-lg-end"><img class="banner-button-toKnowMore buttonOrange" src="public/images_desktop/sabermais1.svg" alt="buttonimage">
+                        <a href="<?php echo url_generate(['route' => 'author']); ?>" class="d-flex justify-content-center justify-content-md-center justify-content-lg-end"><img class="banner-button-toKnowMore buttonOrange" src="public/images_desktop/sabermais1.svg" alt="buttonimage">
                             <img class="banner-button-toKnowMore buttonGrey" src="public/images_desktop/sabermais2.svg" alt="button to Know More"></a>
                     </div>
                 </div>
